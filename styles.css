@@ -1,9 +1,23 @@
-div {
+* {
+    background-color:bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
     color: white;
     background-color: black;
 }
 
 p {
     color: red;
+    font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    color: rgb(113, 39, 0)
+}
+
+li:nth-child(even) {
+    color: rgb(59, 59, 59)
 }
